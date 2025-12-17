@@ -1,0 +1,32 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #213547;
+  background-color: orange;
+
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Optional: links visible on orange */
+a {
+  color: #000;
+  font-weight: 500;
+}
+a:hover {
+  color: #333;
+}
+
+/* Button clean */
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+}
