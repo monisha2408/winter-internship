@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors())
 
 mdb
-  .connect("mongodb+srv://24082006moni_db_user:24082006moni@cluster0.lrntbwb.mongodb.net/?appName=Cluster0")
+  .connect("mongodb+srv://24082006moni_db_user:24082006moni@cluster0.lrntbwb.mongodb.net/dbSece")
   .then(() => console.log("MongoDB Connection Successful"))
   .catch((err) => console.log("MongoDB Connection Unsuccessful", err));
 
