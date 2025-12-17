@@ -1,7 +1,7 @@
 
 const express = require("express");
 const mdb = require("mongoose");
-const Signup = require("./models/SignupSchema");
+const Signup = require("./models/signupSchema.js");
 const bcrypt = require("bcrypt");
 const cors = require("cors")
 const app = express();
